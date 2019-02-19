@@ -24,7 +24,13 @@ var app = angular.module('productApp', ['ngAnimate', 'ngTouch', 'ngCookies', 'sl
               sku: 'DO001',
               description: 'Image 00',
               summary: 'Rock Formation. Marble in its most natural state. Unpolished, unfinished and undeniably beautiful.',
-              moresummary: 'Each piece will be completely unique in shape, color and texture. Raw Marble Object. 5 inches dia.',
+              moresummary: 'Each piece will be completely unique in shape, color and texture. Raw Marble Object. 5 inches dia.
+                <ul>
+                    <li>Marble</li>
+                    <li>Each will be unique</li>
+                    <li>Wipe with a soft cloth</li>
+                    <li>Made in Vietnam</li>
+                </ul>',
               details: [
                 { list: 'Marble' },
                 { list: 'Each will be unique' },
